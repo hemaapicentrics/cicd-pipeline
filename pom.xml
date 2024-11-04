@@ -35,6 +35,7 @@
       <muleVersion>${app.runtime}</muleVersion>
       <username>hemaneww</username>
       <password>Hemala03</password>
+	<businessGroup>Training</businessGroup>
       <applicationName>cicd-pipeline-2144</applicationName>
       <environment>DEV</environment>
       <workers>1</workers>
