@@ -4,7 +4,7 @@ pipeline {
              stage('Build') {
                  steps {
                      echo 'Application is in Building Phase'
-                     bat 'mvn clean'
+                     bat 'mvn clean package'
                      }
                  }
              stage('Test') {
